@@ -10,6 +10,7 @@
 5. Create user in Rails console  User.create(email: "foo@bar.com", password: "password")
 6. Run `rails s` to start your api server on port 4000
 7. Test out your [API using Postman](https://www.postman.com/orange-capsule-983544/workspace/rails-jwt)
+   
  Endpoints:
  GET     http://localhost:4000/current_user   get info about user if you have valid JWT (use key 'Authorization')
  POST    http://localhost:4000/login          to login and get JWT (use keys 'email' and 'password')
